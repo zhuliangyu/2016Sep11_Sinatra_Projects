@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Sqlite (Xerial) - todolist.db" uuid="7607d56e-c938-4468-b315-bd931e1552c8">
+      <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="PostgreSQL - postgres@localhost" uuid="10d5539d-6c62-4ad2-b855-2d1427ee1722">
+      <database-info product="PostgreSQL" version="9.5.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>zhuliangyu</user-name>
+      <introspection-scope>postgres:public,pg_catalog,zhuliangyu</introspection-scope>
+      <resolve-scope>postgres:public,zhuliangyu</resolve-scope>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<div>
+
+  <form action="/" method="post">
+    <label for="task">task name</label>
+    <input type="text" name="name" id="task">
+    <input type="submit" value="submit">
+  </form>
+
+</div>
+
+<br>
+<div>
+  <h1>Pending Task:</h1>
+  <hr>
+  <% @tasks_uncompleted.each do |elem| %>
+
+      <%= elem.name %>
+      <a href="/change/<%= elem.id %>">
+        <button>Mark completed!</button>
+      </a>
+      <br>
+  <% end %>
+  <br>
+
+</div>
+<hr>
+<div>
+
+
+  <h1>Complete Task</h1>
+  <% @tasks_completed.each do |elem| %>
+
+      <%= elem.name %>
+      <a href="/change/<%=elem.id %>">
+        <button>Mark Uncompleted!</button>
+
+        </a>
+      <a href="/del/<%=elem.id %>">
+        <button>Del</button>
+
+      </a>
+      <br>
+  <% end %>
+
+</a>
+
+</div>
+

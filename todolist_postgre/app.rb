@@ -4,7 +4,10 @@ require "data_mapper"
 
 enable :sessions
 
-DataMapper.setup(:default, "sqlite://#{Dir.pwd}/todolist.db")
+# database name: todolist
+# table name: todo
+# DataMapper.setup(:default, "sqlite://#{Dir.pwd}/todolist.db")
+DataMapper.setup(:default, 'postgres://zhuliangyu:UIUCuiuc27@127.0.0.1/todolist')
 
 class Task
   include DataMapper::Resource

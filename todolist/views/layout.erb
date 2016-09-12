@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+
+    div.head{
+      background-color: <%= session[:color] %>
+    ;
+      color: red;
+      margin: 20px 0 20px 0;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+
+<body>
+<a href="/">home</a>|
+<hr>
+<a href="/color/yellow">yellow</a>
+<a href="/color/blue">blue</a>
+<div class="head">You could change my color.</div>
+<%= yield %>
+</body>
+</html>
