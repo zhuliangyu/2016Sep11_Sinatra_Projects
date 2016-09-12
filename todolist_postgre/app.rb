@@ -83,3 +83,7 @@ get "/color/:color" do |color|
   redirect to "/"
 
 end
+
+get "/test" do
+  "test"
+end
