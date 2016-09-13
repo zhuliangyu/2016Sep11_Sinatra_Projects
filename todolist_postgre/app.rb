@@ -1,5 +1,5 @@
 require "sinatra"
-require "sinatra/reloader"
+# require "sinatra/reloader"
 require "data_mapper"
 
 enable :sessions
