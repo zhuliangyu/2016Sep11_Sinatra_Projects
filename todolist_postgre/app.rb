@@ -7,7 +7,7 @@ enable :sessions
 # database name: todolist
 # table name: todo
 # DataMapper.setup(:default, "sqlite://#{Dir.pwd}/todolist.db")
-DataMapper.setup(:default, 'postgres://zhuliangyu:UIUCuiuc27@127.0.0.1/todolist')
+DataMapper.setup(:default, "postgres://fquzjbzlmbnrub:jiOwRZHOFmWRBrn1nS7p0pAzC1@ec2-54-83-44-117.compute-1.amazonaws.com:5432/d3s0mrt72db9j8")
 
 class Task
   include DataMapper::Resource
