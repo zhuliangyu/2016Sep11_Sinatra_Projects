@@ -1,3 +1,5 @@
+# rate my web
+
 require "sinatra"
 require "sinatra/reloader"
 require "data_mapper"
