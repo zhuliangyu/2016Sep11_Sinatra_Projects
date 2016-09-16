@@ -1,0 +1,46 @@
+<h1>Good Rating (3 or more)</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Desgin</th>
+    <th>Content</th>
+    <th>Speed</th>
+    <th>Overall</th>
+  </tr>
+  <% @good.each do |elem| %>
+
+<tr>
+        <td><%=elem.name%></td>
+        <td><%=elem.email%></td>
+        <td><%=elem.design%></td>
+        <td><%=elem.content%></td>
+        <td><%=elem.speed%></td>
+        <td><%=elem.overall%></td>
+  </tr>
+  <% end %>
+
+</table>
+
+<h1>Bad Rating (less than 3)</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Desgin</th>
+    <th>Content</th>
+    <th>Speed</th>
+    <th>Overall</th>
+  </tr>
+
+    <% @bad.each do |elem| %>
+      <tr>
+        <td><%=elem.name%></td>
+        <td><%=elem.email%></td>
+        <td><%=elem.design%></td>
+        <td><%=elem.content%></td>
+        <td><%=elem.speed%></td>
+        <td><%=elem.overall%></td>
+    <% end %>
+  </tr>
+</table>

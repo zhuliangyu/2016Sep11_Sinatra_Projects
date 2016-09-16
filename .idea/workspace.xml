@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ab5912-3cda-48f6-a6e9-99642d770061" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_heroku/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_heroku/Procfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_heroku/app.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_heroku/config.ru" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratemywebsite/app.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratemywebsite/views/index.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratemywebsite/views/layout.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ratemywebsite/views/show.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/2016Sep11_Sinatra_Projects.iml" afterPath="$PROJECT_DIR$/.idea/2016Sep11_Sinatra_Projects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist_postgre/app.rb" afterPath="$PROJECT_DIR$/todolist_postgre/app.rb" />
     </list>
     <ignored path="2016Sep11_Sinatra_Projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +23,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/2016Sep11_Sinatra_Projects@app.coverage" NAME="app Coverage Results" MODIFIED="1473706871217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todolist" MODULE_NAME="2016Sep11_Sinatra_Projects" />
     <SUITE FILE_PATH="coverage/2016Sep11_Sinatra_Projects@app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1473707065783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todolist_postgre" MODULE_NAME="2016Sep11_Sinatra_Projects" />
+    <SUITE FILE_PATH="coverage/2016Sep11_Sinatra_Projects@app__3_.coverage" NAME="app (3) Coverage Results" MODIFIED="1473905141621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ratemywebsite" MODULE_NAME="2016Sep11_Sinatra_Projects" />
     <SUITE FILE_PATH="coverage/2016Sep11_Sinatra_Projects@app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1473711332716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_heroku" MODULE_NAME="2016Sep11_Sinatra_Projects" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -41,22 +42,44 @@
     <favorites_list name="2016Sep11_Sinatra_Projects" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todolist_postgre/Gemfile">
+    <leaf>
+      <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ratemywebsite/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="127">
+              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todolist_postgre/app.rb">
+      <file leaf-file-name="layout.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ratemywebsite/views/layout.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="141" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+            <state relative-caret-position="192">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ratemywebsite/views/show.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ratemywebsite/views/index.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="940">
+              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -67,6 +90,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Erb File" />
       </list>
     </option>
@@ -92,6 +116,11 @@
         <option value="$PROJECT_DIR$/todolist_postgre/Procfile" />
         <option value="$PROJECT_DIR$/todolist_postgre/Gemfile" />
         <option value="$PROJECT_DIR$/todolist_postgre/app.rb" />
+        <option value="$PROJECT_DIR$/ratemywebsite/temp.html" />
+        <option value="$PROJECT_DIR$/ratemywebsite/views/index.erb" />
+        <option value="$PROJECT_DIR$/ratemywebsite/views/show.erb" />
+        <option value="$PROJECT_DIR$/ratemywebsite/app.rb" />
+        <option value="$PROJECT_DIR$/ratemywebsite/views/layout.erb" />
       </list>
     </option>
   </component>
@@ -132,20 +161,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="2016Sep11_Sinatra_Projects">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,36 +179,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016Sep11_Sinatra_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016Sep11_Sinatra_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todolist_postgre" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016Sep11_Sinatra_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016Sep11_Sinatra_Projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todolist_postgre" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="2016Sep11_Sinatra_Projects">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -205,6 +202,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.4.0/bin/node" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;Sqlite (Xerial)" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,7 +213,7 @@
       <recent name="$PROJECT_DIR$/todolist/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.app (2)">
+  <component name="RunManager" selected="Ruby.app (3)">
     <configuration default="false" name="app" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="2016Sep11_Sinatra_Projects" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -270,6 +268,25 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/test_heroku/app.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="app (3)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="2016Sep11_Sinatra_Projects" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/ratemywebsite" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ratemywebsite/app.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -419,16 +436,18 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Ruby.app" />
       <item index="1" class="java.lang.String" itemvalue="Ruby.app (1)" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.app (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.app (3)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.app (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.app (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.app" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.app (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.app (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.app (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.app" />
       </list>
     </recent_temporary>
   </component>
@@ -448,34 +467,35 @@
       <workItem from="1473561827265" duration="13000" />
       <workItem from="1473561885527" duration="6335000" />
       <workItem from="1473658585817" duration="75000" />
-      <workItem from="1473699306982" duration="10510000" />
+      <workItem from="1473699306982" duration="10654000" />
+      <workItem from="1473901174581" duration="4303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16933000" />
+    <option name="totallyTimeSpent" value="21380000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28827038" sideWeight="0.497558" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17582418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28827038" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21123321" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280363" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28827038" sideWeight="0.497558" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -491,7 +511,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -514,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +548,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -551,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="81" column="3" selection-start-line="77" selection-start-column="0" selection-end-line="81" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,7 +591,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,96 +598,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby-getting-started/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby-getting-started/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku-sinatra-app/heroku-sinatra-app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-512">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heroku-sinatra-app/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby-getting-started/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_heroku/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_heroku/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_heroku/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_heroku/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_postgre/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-getting-started/config.ru" />
+    <entry file="file://$PROJECT_DIR$/ruby-getting-started/Procfile" />
+    <entry file="file://$PROJECT_DIR$/heroku-sinatra-app/heroku-sinatra-app.rb" />
+    <entry file="file://$PROJECT_DIR$/heroku-sinatra-app/config.ru" />
+    <entry file="file://$PROJECT_DIR$/ruby-getting-started/Gemfile" />
+    <entry file="file://$PROJECT_DIR$/test_heroku/app.rb" />
+    <entry file="file://$PROJECT_DIR$/test_heroku/Procfile" />
+    <entry file="file://$PROJECT_DIR$/test_heroku/config.ru" />
+    <entry file="file://$PROJECT_DIR$/test_heroku/Gemfile" />
+    <entry file="file://$PROJECT_DIR$/todolist_postgre/config.ru" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -682,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,6 +632,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_postgre/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="141" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
           <folding />
         </state>
       </provider>
@@ -702,10 +651,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_postgre/app.rb">
+    <entry file="file://$PROJECT_DIR$/ratemywebsite/temp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="141" selection-start-line="9" selection-start-column="141" selection-end-line="9" selection-end-column="141" />
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratemywebsite/views/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.3/gems/sinatra-1.4.7/lib/sinatra/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1786" column="0" selection-start-line="1786" selection-start-column="0" selection-end-line="1786" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratemywebsite/views/show.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratemywebsite/views/layout.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ratemywebsite/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding />
         </state>
       </provider>

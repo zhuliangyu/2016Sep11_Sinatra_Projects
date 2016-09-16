@@ -14,7 +14,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>zhuliangyu</user-name>
-      <introspection-scope>postgres:public,pg_catalog,zhuliangyu</introspection-scope>
+      <introspection-scope>postgres:pg_catalog,public,zhuliangyu</introspection-scope>
       <resolve-scope>postgres:public,zhuliangyu</resolve-scope>
     </data-source>
   </component>
